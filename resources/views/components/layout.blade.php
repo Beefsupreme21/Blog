@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Twitter Clone</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="//unpkg.com/alpinejs" defer></script>
         <script src="https://kit.fontawesome.com/19ab508515.js" crossorigin="anonymous"></script>
@@ -14,21 +14,29 @@
                 background-color: #15202B;
             }
 
+            .test {
+                max-width: 350px;
+                min-width: 290px;
+            }
+
         </style>
     </head>
-    <body class="flex background md:5-6 lg:w-2/3 m-auto">
 
-        <x-header />   
+    <body class="background m-auto xl:w-[1265px]">
 
-        <div class="border border-gray-700">
-            {{$slot}}
+        <div class="flex">
+            <div class="pl-8">
+                <x-header />   
+            </div>
+
+            <div class="border border-gray-700">
+                {{$slot}}
+            </div>
+    
+            <div class="hidden lg:block">
+                <x-sidebar />
+            </div>
         </div>
 
-        <div class="hidden lg:block">
-            <x-sidebar />
-
-        </div>
-
-        
     </body>
 </html>
