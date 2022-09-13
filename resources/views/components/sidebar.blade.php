@@ -25,11 +25,25 @@
         </div>
     </form>
 
-    <div class="whats-happening-background rounded-lg text-white font-bold p-4 mt-4">
-        <p class="text-xl">What's happening</p>
+    <div class="whats-happening-background rounded-lg p-4 mt-4">
+        <div class=" text-white font-bold pb-4">
+            <p class="text-xl">What's happening</p>
 
-        <p class="text-slate-500">Queen Elizabeth II</p>
-        <p class="font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, harum.</p>
+            <p class="text-slate-500">Queen Elizabeth II</p>
+            <p class="font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, harum.</p>
+        </div>
+
+        <a href="#" class="text-cyan-600 pt-4">Show more</a>
+    </div>
+
+    <div class="whats-happening-background rounded-lg p-4 mt-4">
+        <div class=" text-white font-bold pb-4">
+            <p class="text-xl">What's happening</p>
+            <p class="text-slate-500">Queen Elizabeth II</p>
+            <p class="font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, harum.</p>
+        </div>
+
+        <a href="#" class="text-cyan-600 pt-4">Show more</a>
     </div>
     
 </div>
