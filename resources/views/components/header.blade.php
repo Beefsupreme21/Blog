@@ -1,4 +1,4 @@
-<header class="text-white text-2xl flex flex-col pl-7 pt-4 items-center mr-8 xl:m-0 xl:items-start">
+<header class="text-white text-2xl flex flex-col pl-7 pt-4 items-center mr-8 xl:m-0 xl:items-start sticky top-0">
 
     <div class="fa-brands fa-twitter fa-2x mb-6 hover:text-gray-500 xl:ml-4"></div>
         
@@ -80,7 +80,7 @@
     
     <a href="#">
         <div>
-            <button class="hidden bg-blue-500 text-xl text-white font-bold mt-4 mr-12 py-4 px-24 rounded-full xl:block">
+            <button class="hidden bg-blue-400 text-xl text-white font-bold mt-4 mr-12 py-4 px-24 rounded-full xl:block hover:bg-blue-500">
                 Tweet
             </button>
 
