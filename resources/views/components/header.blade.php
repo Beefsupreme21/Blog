@@ -93,10 +93,10 @@
                 </div>
             </a>
 
-            <a href="/register">
+            <a href="/login">
                 <div>
-                    <button class="hidden bg-blue-400 text-xl text-white font-bold mt-4 mr-12 py-3 px-20 rounded-full xl:block hover:bg-blue-500">
-                        Register
+                    <button class="hidden bg-green-400 text-xl text-white font-bold mt-4 mr-12 py-3 px-12 rounded-full xl:block hover:bg-blue-500">
+                        Login/Register
                     </button>
     
                     <button class="bg-blue-500 mt-4 p-2 rounded-full xl:hidden">
@@ -107,10 +107,10 @@
                 </div>
             </a>
 
-            <a href="/login">
+            <a href="/">
                 <div>
-                    <button class="hidden bg-blue-400 text-xl text-white font-bold mt-4 mr-12 py-3 px-20 rounded-full xl:block hover:bg-blue-500">
-                        Login
+                    <button class="hidden bg-red-400 text-xl text-white font-bold mt-4 mr-12 py-3 px-12 rounded-full xl:block hover:bg-blue-500">
+                        Sign Out
                     </button>
     
                     <button class="bg-blue-500 mt-4 p-2 rounded-full xl:hidden">
