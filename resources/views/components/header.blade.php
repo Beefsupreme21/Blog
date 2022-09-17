@@ -92,6 +92,34 @@
                     </button>
                 </div>
             </a>
+
+            <a href="/register">
+                <div>
+                    <button class="hidden bg-blue-400 text-xl text-white font-bold mt-4 mr-12 py-3 px-20 rounded-full xl:block hover:bg-blue-500">
+                        Register
+                    </button>
+    
+                    <button class="bg-blue-500 mt-4 p-2 rounded-full xl:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>              
+                    </button>
+                </div>
+            </a>
+
+            <a href="/login">
+                <div>
+                    <button class="hidden bg-blue-400 text-xl text-white font-bold mt-4 mr-12 py-3 px-20 rounded-full xl:block hover:bg-blue-500">
+                        Login
+                    </button>
+    
+                    <button class="bg-blue-500 mt-4 p-2 rounded-full xl:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>              
+                    </button>
+                </div>
+            </a>
         </div>
 
         <div class="text-white py-5 flex justify-between items-center hover:bg-slate-700">
